@@ -1,5 +1,5 @@
 :root{
-  --primary-color: #8677dd;
+  --primary-color: #ea7bba;
 }
 
 *{
@@ -354,6 +354,15 @@ body{
 
 .event .event:hover::after{
   display: flex;
+}
+
+.events .active.event::after{
+  background-color: #fff;
+  bottom: 20%;
+}
+
+.events .active.event{
+  padding-bottom: 10px;
 }
 
 .events .no-event{
